@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>都道府県クイズ</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <h1 id="title"></h1>
+            <p id="question"></p>
+            <div id="ans-btn">
+                <button onclick="onAnswer(1)" id="button-a"></button>
+                <button onclick="onAnswer(2)" id="button-b"></button>
+                <button onclick="onAnswer(3)" id="button-c"></button>
+            </div>
+        </section>
+
+        <audio id="correct-Sound" preload="auto">
+            <source src="Sound/Correct Sound 1.mp3">
+        </audio>
+        <audio id="incorrect-Sound"preload="auto">
+            <source src="Sound/IncorrectSound 3.mp3" type="audio/mp3">
+        </audio>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
